@@ -4,6 +4,6 @@ kind: Kustomization
 helmCharts:
   - name: nginx
     repo: https://charts.bitnami.com/bitnami
-    version: 15.10.1
+    version: 21.1.23
     releaseName: nginx
     valuesFile: values.yaml
