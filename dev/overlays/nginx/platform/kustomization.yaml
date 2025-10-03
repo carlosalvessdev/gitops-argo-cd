@@ -10,7 +10,7 @@ patches:
       name: nginx
     patch: |-
       - op: add
-        path: /spec/template/spec/containers/1/env
+        path: /spec/template/spec/containers/0/env
         value:
           - name: ENVIRONMENT
             value: "dev-two"
