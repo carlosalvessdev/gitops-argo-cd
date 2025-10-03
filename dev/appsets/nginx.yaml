@@ -23,6 +23,6 @@ spec:
         path: '{{overlay}}'
       destination:
         server: '{{url}}'
-        namespace: default
+        namespace: argocd
       syncPolicy:
         automated: {}
