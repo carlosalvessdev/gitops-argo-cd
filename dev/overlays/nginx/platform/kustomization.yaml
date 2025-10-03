@@ -12,5 +12,5 @@ patches:
       - op: add
         path: /spec/template/spec/containers/0/env/-
         value:
-          - name: ENVIRONMENT_TEST
-            value: "devtwo"
+          name: ENVIRONMENT_TEST
+          value: "devtwo"
