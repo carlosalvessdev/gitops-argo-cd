@@ -1,9 +1,5 @@
-replicaCount: 1
-
-service:
-  type: ClusterIP
-  port: 8181
-
-extraEnvVars:
-  - name: ENVIRONMENT
-    value: "dev"
+controller:
+  replicaCount: 1
+  extraEnvs:
+    - name: ENVIRONMENT
+      value: "dev"
