@@ -18,7 +18,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/empresa/git-repo.git
+        repoURL: https://github.com/carlosalvessdev/gitops-argo-cd.git
         targetRevision: main
         path: '{{overlay}}'
       destination:
